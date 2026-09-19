@@ -2,5 +2,4 @@
 
 A CV webpage built with HTML and Bootstrap.
 
-Project URL: https://github.com/Annathome/Cv.git
-
+https://roadmap.sh/projects/single-page-cv
