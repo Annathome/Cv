@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+:root{
+    --text-standard:rgba(255, 192, 203);
+    --text-hotpink:rgba(255, 105, 180);
+    --text-deeppink:rgba(233, 30, 99);
+    --text-softpink:rgba(255, 214, 224);
+    --border-shadow: 0px 4px 8px rgba(255, 192, 203, 0.5); /* root will affect the whole text color */
+                                                             /* opacity only effective if the color uses is rgba */
+                                                             /* rgb 3commas separated for the opacity, rgba 4commas separated for the opacity*/
+}
+
+.hero
+{
+    font-family: 'Poppins', sans-serif;
+    height: 10%;
+    width:100%;
+    border-bottom: 2px solid var(--text-hotpink) ;
+    box-shadow: var(--border-shadow);
+    background: linear-gradient(45deg, var(--text-softpink),var(--text-hotpink) );
+    display: flex;
+    flex-direction: row;
+    position:sticky;
+    
+}
+.heroSection
+{
+    background: linear-gradient(45deg, var(--text-softpink),var(--text-hotpink));
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.hero ul{
+    margin-left: 40%;
+    
+}
+
